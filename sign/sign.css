@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Urbanist:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 1000px;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('/img/sign.img/image\ 3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+.main .img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.sign {
+    width: 600px;
+    height: 720px;
+    background: #fff;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.opac {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 1000px;
+}
+
+.email {
+    width: 400px;
+    height: 45px;
+    border-radius: 5px;
+    border: 1px solid #222;
+    color: #817A7A;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+    line-height: 24px;
+    padding-left: 20px;
+    margin-bottom: 25px;
+}
+.email:focus {
+    outline: none;
+    background: #e2e1e1;
+    border: 0px;
+}
+
+h3 {
+    height: 55px;
+    font-family: 'DM Serif Display', serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 54.84px;
+    color: #000000;
+    margin-bottom: 15px;
+}
+.input {
+    position: relative;
+}
+.input i {
+    width: 25px;
+    height: 20px;
+    position: absolute;
+    right: 5%;
+    bottom: 50%;
+    color: #817A7A;
+}
+
+.remember span {
+    width: 150px;
+    height: 20px;
+    font-family: 'Urbanist', sans-serif;
+    font-weight: 400;
+    line-height: 19.2px;
+    font-size: 18px;
+    color: #000000;
+}
+
+.remember a {
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.remember input {
+    margin-right: 5px;
+    width: 16px;
+    height: 16px;
+    border: 1px solid #7A7C7D;
+}
+
+.remember {
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+}
+
+.rememberMe {
+    display: flex;
+    align-items: center;
+}
+
+.enter a {
+    text-decoration: none;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 21.6px;
+    color: #fff;
+}
+.enter{
+    height: 50px;
+    background: #BE7115;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+}
+
+.entered {
+    height: 130px;
+    display: flex;
+    align-items: center;
+}
+
+.line {
+    width: 172px;
+    border-bottom: 1px solid #C8BDBD;
+    margin-bottom: 10px;
+}
+
+.orr {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #818181;
+    width: 23px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+.or {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.social-media {
+    width: 400px;
+    height: 45px;
+    border-radius: 20px;
+    background: #fff;
+    box-shadow: 0 3px 10px 0 #b5b5b5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.media {
+    height: 220px;
+}
+
+.social-media img {
+    margin-left: 15px;
+    width: 30px;
+    height: 30px;
+    margin-right: 25px;
+
+}
+
+.social-media p {
+    width: 210px;
+    font-family: 'Urbanist', sans-serif;
+    font-size: 20px;
+    line-height: 19.2px;
+    color: #000000;
+    font-weight: 400;
+}
+
+.account {
+    text-decoration: none;
+    color: #000000;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-family: 'Urbanist', sans-serif;
+}
+
+
+@media only screen and (max-width: 992px) and (min-width: 530px) {
+    .main {
+        width: 100%;
+        height: 800px;
+    }
+    .opac {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 800px;
+    }
+    .sign {
+        width: 480px;
+        height: 600px;
+    }
+    h3 {
+        width: 100px;
+        height: 40px;
+        font-size: 28px;
+    }
+    .email {
+        width: 320px;
+        height: 45px;
+        font-size: 18px;
+    }
+    .remember {
+        width: 320px;
+    }
+    .rememberMe span {
+        line-height: 19.2px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .rememberMe {
+        width: 210px;
+    }
+    .remember a {
+        font-size: 15px;
+    }
+    .remember input {
+        margin-right: 5px;
+        width: 20px;
+        height: 15px;
+    }
+
+    .enter a {
+        text-decoration: none;
+        font-family: 'Urbanist', sans-serif;
+        font-size: 18px;
+        font-weight: 700;
+        line-height: 21.6px;
+        color: #fff;
+    }
+    .enter{
+        height: 45px;
+        width: 320px;
+    }
+    
+    .entered {
+        height: 130px;
+        display: flex;
+        align-items: center;
+    }
+
+    .line {
+        width: 135px;
+    }
+    .orr {
+        font-size: 16px;
+        line-height: 20px;
+        width: 23px;
+        height: 20px;
+    }
+    .social-media {
+        width: 320px;
+        height: 40px;
+        margin-top: 10px;
+    }
+    .media {
+        height: 170px;
+    }
+    .social-media img {
+        width: 20px;
+        height: 20px;
+        margin-right: 20px;
+    }
+    .social-media p {
+        width: 170px;
+        font-size: 16px;
+    }
+}
+
+
+
+@media only screen and (max-width: 530px) and (min-width: 350px) {
+    .main {
+        width: 100%;
+        height: 20vh;
+        display: block;
+        background-image: none;
+        padding: 0 20px;
+    }
+    .opac{
+        display: none;
+    }
+    .sign {
+        width: 100%;
+        height: 600px;
+    }
+    h3 {
+        width: 100px;
+        height: 40px;
+        font-size: 28px;
+    }
+    .email {
+        width: 100%;
+        height: 45px;
+        font-size: 16px;
+    }
+    .inputs{
+        width: 100%;
+    }
+    .remember {
+        width: 100%;
+    }
+    .rememberMe span {
+        line-height: 19.2px;
+        font-size: 15px;
+        width: 100%;
+    }
+    .rememberMe {
+        width: 210px;
+    }
+    .remember a {
+        font-size: 15px;
+    }
+    .remember input {
+        margin-right: 5px;
+        width: 20px;
+        height: 15px;
+    }
+    .enter a {
+        font-size: 18px;        
+    }
+    .enter{
+        height: 40px;
+        width: 100%;
+    }
+    .entered {
+        width: 100%;
+        height: 120px;
+    }
+    .line {
+        width: 135px;
+    }
+    .orr {
+        font-size: 16px;
+        line-height: 20px;
+        width: 23px;
+        height: 20px;
+    }
+    .social-media {
+        width: 100%;
+        height: 40px;
+        margin-top: 10px;
+        justify-content: flex-start;
+    }
+    .media {
+        width: 100%;
+        height: 170px;
+    }
+    .social-media img {
+        width: 20px;
+        height: 20px;
+        margin-right: 30px;
+        margin-left: 30px;
+    }
+    .social-media p {
+        width: 170px;
+        font-size: 16px;
+    }
+}

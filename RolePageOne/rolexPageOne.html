@@ -1,0 +1,788 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/RolePageOne/rolexPageOne.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+
+<body>
+    <header>
+        <a href="/firstPage.html" class="logo">
+            <img src="/img/first.page.img/Rectangle 165.png" alt="logo" class="logo-main">
+        </a>
+
+        <div class="novbar">
+            <ul>
+                <li><a href="/secandPage/secondPage.html">Home</a></li>
+                <li><a href="/forMen/forMenPage.html">For Men</a></li>
+                <li><a href="/forWomen/forWomen.html">For Women</a></li>
+                <li><a href="/worth/worth.html">Sell & Trade</a></li>
+                <li><a href="/newest/newested.html">Coming Soon</a></li>
+                <li><a href="/myWatch/myWatch.html">Profile</a></li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <div class="cart-count">0</div>
+            <ion-icon name="cart" id="cart-icon"></ion-icon>
+            <div class="tel-icon">
+                <i class="fa-solid fa-bars menu-icon"></i>
+            </div>
+        </div>
+        <div class="dark-light-button">
+            <div class="sun">
+                <i class="fa-solid fa-sun "></i>
+            </div>
+            <div class="moon">
+                <i class="fa-solid fa-moon"></i>
+            </div>
+        </div>
+
+    </header>
+    <div class="menu-left">
+        <div class="menu-left-nov">
+            <div class="dark-light-button2">
+                <div class="sun2 white-btn">
+                    <i class="fa-solid fa-sun"></i>
+                </div>
+                <div class="moon2">
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+            </div>
+            <ul>
+                <li><a href="/secandPage/secondPage.html">Home</a></li>
+                <li><a href="/forMen/forMenPage.html">For Men</a></li>
+                <li><a href="/forWomen/forWomen.html">For Women</a></li>
+                <li><a href="/worth/worth.html">Sell & Trade</a></li>
+                <li><a href="/newest/newested.html">Coming Soon</a></li>
+                <li><a href="/myWatch/myWatch.html">Profile</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="nav">
+        <div class="cart">
+            <div class="cart-title">Cart Items</div>
+            <div class="cart-content">
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">Rs.0</div>
+            </div>
+
+            <button class="btn-buy">Place Order</button>
+
+            <ion-icon name="close" id="cart-close"></ion-icon>
+
+        </div>
+    </div>
+
+
+    <div class="found">
+        <h1>We've found 45,347 results for “Rolex”</h1>
+    </div>
+
+    <div class="options">
+        <select id="cars" name="cars">
+            <option value="volvo">Brand</option>
+            <option value="saab">Montblanc</option>
+            <option value="fiat">Jaeger LeCoultre</option>
+            <option value="audi">Piaget</option>
+            <option value="audi">Cartier</option>
+            <option value="audi">Harry Winston</option>
+            <option value="audi">MeisterSinger</option>
+            <option value="audi">Chopard</option>
+            <option value="audi">Orient</option>
+            <option value="audi">Casio</option>
+            <option value="audi">Tissot</option>
+        </select>
+        <select id="cars" name="cars">
+            <option value="volvo">Price</option>
+            <option value="saab">$26.400</option>
+            <option value="fiat">$22.100</option>
+            <option value="audi">$26.500</option>
+            <option value="audi">$22.400</option>
+            <option value="audi">$25.400</option>
+            <option value="audi">$8.200</option>
+            <option value="audi">$7.400</option>
+            <option value="audi">$5.400</option>
+            <option value="audi">$22.400</option>
+            <option value="audi">$20.400</option>
+        </select>
+        <select id="cars" name="cars">
+            <option value="volvo">Case Size</option>
+            <option value="saab">26mm</option>
+            <option value="fiat">27mm</option>
+            <option value="audi">31mm</option>
+            <option value="audi">32mm-35mm</option>
+            <option value="audi">36mm-39mm</option>
+            <option value="audi">40mm-42mm</option>
+            <option value="audi">44mm</option>
+        </select>
+        <select id="cars" name="cars">
+            <option value="volvo">Year</option>
+            <option value="saab">2024</option>
+            <option value="saab">2023</option>
+            <option value="saab">2022</option>
+            <option value="saab">2021</option>
+            <option value="fiat">2020</option>
+            <option value="audi">2019</option>
+            <option value="audi">2018</option>
+            <option value="audi">2017</option>
+            <option value="audi">2016</option>
+            <option value="audi">2015</option>
+            <option value="audi">2014</option>
+        </select>
+    </div>
+    <div class="lines">
+        <p></p>
+    </div>
+
+    <div class="most">
+        <h1>Most Popular Models</h1>
+    </div>
+    <div class="swipers">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <ul>
+                        <li class="fil-li">
+                            <div class="watch-box">
+                                <div class="pic">
+                                    <img src="/img/formen/1.svg" class="shop-watch-img">
+                                </div>
+                                <h2 class="watch-title">A. LANGE & SÖHNE
+                                    Saxonia, 130.032F</h2>
+                                <div class="stars">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                </div>
+                                <span class="watch-price">$ 1700</span>
+                                <ion-icon name="cart" class="add-cart"></ion-icon>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide">
+                    <ul>
+                        <li class="fil-li">
+                            <div class="watch-box">
+                                <div class="pic">
+                                    <img src="/img/formen/2.svg" class="shop-watch-img">
+                                </div>
+                                <h2 class="watch-title">A. LANGE & SÖHNE
+                                </h2>
+                                <div class="stars">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                </div>
+                                <span class="watch-price">$ 700</span>
+                                <ion-icon name="cart" class="add-cart"></ion-icon>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide">
+                    <ul>
+                        <li class="fil-li">
+                            <div class="watch-box">
+                                <div class="pic">
+                                    <img src="/img/formen/3.svg" class="shop-watch-img">
+                                </div>
+                                <h2 class="watch-title">A. LANGE & SÖHNE
+                                    Lange 1, 116.025</h2>
+                                <div class="stars">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                </div>
+                                <span class="watch-price">$ 900</span>
+                                <ion-icon name="cart" class="add-cart"></ion-icon>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide">
+                    <ul>
+                        <li class="fil-li">
+                            <div class="watch-box">
+                                <div class="pic">
+                                    <img src="/img/formen/5.svg" class="shop-watch-img">
+                                </div>
+                                <h2 class="watch-title">A. LANGE & SÖHNE
+                                    Saxonia, 130.032F</h2>
+                                <div class="stars">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                </div>
+                                <span class="watch-price">$ 1200</span>
+                                <ion-icon name="cart" class="add-cart"></ion-icon>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide">
+                    <ul>
+                        <li class="fil-li">
+                            <div class="watch-box">
+                                <div class="pic">
+                                    <img src="/img/formen/6.svg" class="shop-watch-img">
+                                </div>
+                                <h2 class="watch-title">A. LANGE & SÖHNE
+                                    Lange 1, 116.025</h2>
+                                <div class="stars">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                </div>
+                                <span class="watch-price">$ 2400</span>
+                                <ion-icon name="cart" class="add-cart"></ion-icon>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide">
+                    <ul>
+                        <li class="fil-li">
+                            <div class="watch-box">
+                                <div class="pic">
+                                    <img src="/img/formen/7.svg" class="shop-watch-img">
+                                </div>
+                                <h2 class="watch-title">A. LANGE & SÖHNE
+                                    Saxonia, 130.032F</h2>
+                                <div class="stars">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                </div>
+                                <span class="watch-price">$ 2600</span>
+                                <ion-icon name="cart" class="add-cart"></ion-icon>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide">
+                    <ul>
+                        <li class="fil-li">
+                            <div class="watch-box">
+                                <div class="pic">
+                                    <img src="/img/formen/5.svg" class="shop-watch-img">
+                                </div>
+                                <h2 class="watch-title">A. LANGE & SÖHNE
+                                    Lange 1, 116.025</h2>
+                                <div class="stars">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                </div>
+                                <span class="watch-price">$ 2800</span>
+                                <ion-icon name="cart" class="add-cart"></ion-icon>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide">
+                    <ul>
+                        <li class="fil-li">
+                            <div class="watch-box">
+                                <div class="pic">
+                                    <img src="/img/formen/7.svg" class="shop-watch-img">
+                                </div>
+                                <h2 class="watch-title">A. LANGE & SÖHNE
+                                    Saxonia, 130.032F</h2>
+                                <div class="stars">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                </div>
+                                <span class="watch-price">$ 100</span>
+                                <ion-icon name="cart" class="add-cart"></ion-icon>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide">
+                    <ul>
+                        <li class="fil-li">
+                            <div class="watch-box">
+                                <div class="pic">
+                                    <img src="/img/formen/6.svg" class="shop-watch-img">
+                                </div>
+                                <h2 class="watch-title">A. LANGE & SÖHNE
+                                    Saxonia, 130.032F</h2>
+                                <div class="stars">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                </div>
+                                <span class="watch-price">$ 750</span>
+                                <ion-icon name="cart" class="add-cart"></ion-icon>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <div class="swiper-slide">
+                    <ul>
+                        <li class="fil-li">
+                            <div class="watch-box">
+                                <div class="pic">
+                                    <img src="/img/formen/2.svg" class="shop-watch-img">
+                                </div>
+                                <h2 class="watch-title">A. LANGE & SÖHNE
+                                    Saxonia, 130.032F</h2>
+                                <div class="stars">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                    <img src="/img/second.page/Star 2.svg" alt="star">
+                                </div>
+                                <span class="watch-price">$ 800</span>
+                                <ion-icon name="cart" class="add-cart"></ion-icon>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="all-brands">
+        <a href="/allBrands/allBrandsPage.html">See All Brands &nbsp;
+            <i class="fa-solid fa-chevron-right"></i>
+        </a>
+    </div>
+
+    <div class="rolex-list">
+        <ul>
+            <li class="fil-li">
+                <div class="watch-box">
+                    <div class="pic">
+                        <img src="/img/rolexpage/Rectangle 1.svg" class="shop-watch-img">
+                    </div>
+                    <h2 class="watch-title">A. LANGE & SÖHNE
+                        Saxonia, 130.032F</h2>
+                    <div class="stars">
+                        <img src="/img/second.page/Star 2.svg" alt="star">
+                        <img src="/img/second.page/Star 2.svg" alt="star">
+                        <img src="/img/second.page/Star 2.svg" alt="star">
+                        <img src="/img/second.page/Star 2.svg" alt="star">
+                        <img src="/img/second.page/Star 2.svg" alt="star">
+                    </div>
+                    <span class="watch-price">$ 800</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </li>
+
+            <li class="fil-li">
+                <div class="watch-box">
+                    <div class="pic">
+                        <img src="/img/rolexpage/Rectangle 2 (1).svg" class="shop-watch-img">
+                    </div>
+                    <h2 class="watch-title">A. LANGE & SÖHNE</h2>
+                    <div class="stars">
+                        <img src="/img/second.page/Star 2.svg" alt="star">
+                        <img src="/img/second.page/Star 2.svg" alt="star">
+                        <img src="/img/second.page/Star 2.svg" alt="star">
+                        <img src="/img/second.page/Star 2.svg" alt="star">
+                        <img src="/img/second.page/Star 2.svg" alt="star">
+                    </div>
+                    <span class="watch-price">$ 1800</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </li>
+
+            <li class="fil-li">
+                <div class="watch-box">
+                    <div class="pic">
+                        <img src="/img/rolexpage/Rectangle 3.svg" alt="Watch" class="fil-wat shop-watch-img">
+                    </div>
+                    <h2 class="watch-title">A. LANGE & SÖHNE
+                        Lange 1, 116.025</h2>
+                    <div class="stars">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                    </div>
+                    <span class="watch-price">$ 1800</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </li>
+            <li class="fil-li">
+                <div class="watch-box">
+                    <div class="pic">
+                        <img src="/img/rolexpage/Rectangle 4.svg" alt="Watch" class="fil-wat shop-watch-img">
+                    </div>
+                    <h2 class="watch-title">A. LANGE & SÖHNE
+                        Saxonia, 130.032F</h2>
+                    <div class="stars">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                    </div>
+                    <span class="watch-price">$ 3640</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </li>
+            <li class="fil-li">
+                <div class="watch-box">
+                    <div class="pic">
+                        <img src="/img/rolexpage/Rectangle 5.svg" alt="Watch" class="fil-wat shop-watch-img">
+                    </div>
+                    <h2 class="watch-title">A. LANGE & SÖHNE
+                        Saxonia, 130.032F</h2>
+                    <div class="stars">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                    </div>
+                    <span class="watch-price">$ 340</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </li>
+            <li class="fil-li">
+                <div class="watch-box">
+                    <div class="pic">
+                        <img src="/img/rolexpage/Rectangle 6.svg" alt="Watch" class="fil-wat shop-watch-img">
+                    </div>
+                    <h2 class="watch-title">A. LANGE & SÖHNE
+                        Saxonia, 130.032F</h2>
+                    <div class="stars">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                    </div>
+                    <span class="watch-price">$ 740</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </li>
+            <li class="fil-li">
+                <div class="watch-box">
+                    <div class="pic">
+                        <img src="/img/rolexpage/Rectangle 7.svg" alt="Watch" class="fil-wat shop-watch-img">
+                    </div>
+                    <h2 class="watch-title">A. LANGE & SÖHNE
+                        Lange 1, 116.025</h2>
+                    <div class="stars">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                    </div>
+                    <span class="watch-price">$ 2500</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+            </li>
+            <li class="fil-li">
+                <div class="watch-box">
+                    <div class="pic">
+                        <img src="/img/rolexpage/Rectangle 8.svg" alt="Watch" class="fil-wat shop-watch-img">
+                    </div>
+                    <h2 class="watch-title">A. LANGE & SÖHNE
+                        Saxonia, 130.032F</h2>
+                    <div class="stars">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                    </div>
+                    <span class="watch-price">$ 2800</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </li>
+            <li class="fil-li">
+                <div class="watch-box">
+                    <div class="pic">
+                        <img src="/img/rolexpage/Rectangle 9.svg" alt="Watch" class="fil-wat shop-watch-img">
+                    </div>
+                    <h2 class="watch-title">A. LANGE & SÖHNE
+                        Saxonia, 130.032F</h2>
+                    <div class="stars">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                    </div>
+                    <span class="watch-price">$ 740</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </li>
+            <li class="fil-li">
+                <div class="watch-box">
+                    <div class="pic">
+                        <img src="/img/rolexpage/Rectangle 10.svg" alt="Watch" class="fil-wat shop-watch-img">
+                    </div>
+                    <h2 class="watch-title">A. LANGE & SÖHNE</h2>
+                    <div class="stars">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                    </div>
+                    <span class="watch-price">$ 300</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </li>
+            <li class="fil-li">
+                <div class="watch-box">
+                    <div class="pic">
+                        <img src="/img/rolexpage/Rectangle 11.svg" alt="Watch" class="fil-wat shop-watch-img">
+                    </div>
+                    <h2 class="watch-title">A. LANGE & SÖHNE
+                        Lange 1, 116.025</h2>
+                    <div class="stars">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                    </div>
+                    <span class="watch-price">$ 14800</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </li>
+            <li class="fil-li">
+                <div class="watch-box">
+                    <div class="pic">
+                        <img src="/img/rolexpage/Rectangle 12.svg" alt="Watch" class="fil-wat shop-watch-img">
+                    </div>
+                    <h2 class="watch-title">A. LANGE & SÖHNE
+                        Saxonia, 130.032F</h2>
+                    <div class="stars">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                    </div>
+                    <span class="watch-price">$ 500</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </li>
+            <li class="fil-li">
+                <div class="watch-box">
+                    <div class="pic">
+                        <img src="/img/rolexpage/Rectangle 13.svg" alt="Watch" class="fil-wat shop-watch-img">
+                    </div>
+                    <h2 class="watch-title">A. LANGE & SÖHNE
+                        Saxonia, 130.032F</h2>
+                    <div class="stars">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                    </div>
+                    <span class="watch-price">$ 2200</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </li>
+            <li class="fil-li">
+                <div class="watch-box">
+                    <div class="pic">
+                        <img src="/img/rolexpage/Rectangle 14.svg" alt="Watch" class="fil-wat shop-watch-img">
+                    </div>
+                    <h2 class="watch-title">A. LANGE & SÖHNE</h2>
+                    <div class="stars">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                    </div>
+                    <span class="watch-price">$ 7800</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </li>
+            <li class="fil-li">
+                <div class="watch-box">
+                    <div class="pic">
+                        <img src="/img/rolexpage/Rectangle 15.svg" alt="Watch" class="fil-wat shop-watch-img">
+                    </div>
+                    <h2 class="watch-title">A. LANGE & SÖHNE
+                        Lange 1, 116.025</h2>
+                    <div class="stars">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                    </div>
+                    <span class="watch-price">$ 500</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </li>
+            <li class="fil-li">
+                <div class="watch-box">
+                    <div class="pic">
+                        <img src="/img/rolexpage/Rectangle 16.svg" alt="Watch" class="fil-wat shop-watch-img">
+                    </div>
+                    <h2 class="watch-title">A. LANGE & SÖHNE
+                        Saxonia, 130.032F</h2>
+                    <div class="stars">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                        <img src="/img/collectionPage/Star 1.svg" alt="star">
+                    </div>
+                    <span class="watch-price">$ 36400</span>
+                    <ion-icon name="cart" class="add-cart"></ion-icon>
+                </div>
+            </li>
+        </ul>
+    </div>
+    
+    <div class="rolex-name">
+        <div class="rolex-name-img">
+            <img src="/img/rolexpage/rolex ad 1.svg" alt="rolex">
+            <div class="text-rolex">
+                <h1>Rolex: The King of Luxury and Great Investments</h1>
+                <p>Rolex watches are crafted from the finest raw materials and assembled with scrupulous attention to
+                    detail. Every component is designed, developed and produced to the most exacting standards.</p>
+            </div>
+        </div>
+    </div>
+    <div class="time">
+        <h1>Timeless Designs With Investment Potential</h1>
+        <p class="many">Many consider Rolex to be the epitome of luxury watches, and not without reason. Rolex's models
+            are iconic in
+            the watch industry, often serving as the blueprint for entire watch categories. Take for example the Rolex
+            Submariner; although it was by no means the first of its kind, this model is deemed the quintessential
+            diving watch. The GMT-Master was just as influential, radicalizing GMT watches with its two-tone 24-hour
+            ring.
+        </p>
+        <p class="many1">Prestige, excellent quality, and timeless designs are all synonymous with Rolex, and demand for
+            timepieces
+            produced by the Swiss giant has been reaching new heights as a result. However, high demand coupled with
+            limited availability leads to one thing: ever-increasing prices. This means that Rolex watches are very
+            likely to appreciate and can, therefore, make for profitable investments.</p>
+        <p class="many2"> Over the last two years, virtually every model in the current catalog has increased in value.
+            Top performers
+            include watches from the Daytona, Submariner, and GMT-Master II collections, which have more than doubled in
+            value in some cases. But they're by no means an exception: even exotic models like the Milgauss,
+            Sky-Dweller, and Air-King have appreciated by 50–80% lately. Vintage watches sing the same tune; they, too,
+            are valuable collector's items and make for worthwhile investments with eye-watering returns.</p>
+        <p class="many-list">Reasons to Buy a Rolex Watch</p>
+        <ul>
+            <li> High investment potential</li>
+            <li>Ultimate luxury and status symbol</li>
+            <li>Timeless designs with outstanding in-house movements</li>
+            <li>Top models: Daytona, Submariner, GMT-Master, Datejust</li>
+        </ul>
+    </div> 
+    <div class="rolex-price">
+        <h1>Prices at a Glance: Rolex Watches</h1>
+    </div>
+    <div class="table">
+        <div class="table-left">
+            <h4>Model, reference number</h4>
+            <ul class="table-one">
+                <li>Submariner "COMEX," 5514</li>
+                <li>Day-Date 40, 228396TBR</li>
+                <li>Submariner "Hulk," 116610LV</li>
+                <li>Daytona "Rainbow," 116595RBOW</li>
+                <li>Daytona, 116500LN</li>
+                <li>Milgauss, 116400GV</li>
+                <li>Day-Date 40, 228238</li>
+                <li>Submariner No Date, 114060</li>
+                <li>Yacht-Master II, 116688</li>
+                <li>Yacht-Master II, 116688</li>
+            </ul>
+        </div>
+        <div class="table-right">
+            <h4>Price</h4>
+            <ul class="table-two">
+                <li>154,000 USD</li>
+                <li>154,000 USD</li>
+                <li>154,000 USD</li>
+                <li>154,000 USD</li>
+                <li>154,000 USD</li>
+                <li>154,000 USD</li>
+                <li>154,000 USD</li>
+                <li>154,000 USD</li>
+                <li>154,000 USD</li>
+                <li>154,000 USD</li>
+            </ul>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="foot">
+            <div class="home">
+               <a href="/secandPage/secondPage.html"> <h4>Home</h4></a>
+               <a href="/forMen/forMenPage.html"><h5>For men</h5></a>
+               <a href="/forWomen/forWomen.html"><h5>For women</h5></a>
+               <a href="/allBrands/allBrandsPage.html"> <h5>All brands</h5></a>
+                <a href="/newest/newested.html"><h5>Newests</h5></a>
+            </div>
+            <div class="home">
+                <h4>Company</h4>
+                <h5>Corporation</h5>
+                <h5>Fashions</h5>
+                <h5>About Us</h5>
+            </div>
+            <div class="home">
+                <h4>Contact Us</h4>
+                <h5>Privacy & Policy</h5>
+                <h5>Terms of Services</h5>
+                <h5>+994 123 456 78 91</h5>
+            </div>
+        </div>
+        <p class="line"></p>
+        <div class="social-media">
+            <div class="date">
+                <img src="/img/icons/Vector (3).png" alt="icon"> <span>2023</span>
+            </div>
+            <div class="media">
+                <a href="https://www.instagram.com/casio_us/"><img src="/img/icons/Vectors.png" alt="icon"></a>
+                <a href="https://www.facebook.com/groups/250363055662102/"><img src="/img/icons/Vector (1).png" alt="icon"></a>
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fcasioofficial"><img src="/img/icons/Vector (2).png" alt="icon"></a>
+                <img src="/img/icons/Group.png" alt="icon">
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="/RolePageOne/rolexOnePage.js"></script>
+    <script src="/app.js"></script>
+    <script src="/phone.js"></script>
+</body>
+
+</html>

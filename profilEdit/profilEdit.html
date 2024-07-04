@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./profilEdit.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <script src="https://kit.fontawesome.com/yourcode.js" crossorigin="anonymous"></script>
+    <meta charset="utf-8" />
+    <title>Swiper demo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <header>
+        <a href="/firstPage.html" class="logo">
+            <img src="/img/first.page.img/Rectangle 165.png" alt="logo" class="logo-main">
+        </a>
+
+        <div class="novbar">
+            <ul>
+                <li><a href="/secandPage/secondPage.html">Home</a></li>
+                <li><a href="/forMen/forMenPage.html">For Men</a></li>
+                <li><a href="/forWomen/forWomen.html">For Women</a></li>
+                <li><a href="/worth/worth.html">Sell & Trade</a></li>
+                <li><a href="/newest/newested.html">Coming Soon</a></li>
+                <li><a href="/myWatch/myWatch.html">Profile</a></li>
+            </ul>
+        </div>
+
+        <div class="box">
+            <div class="cart-count">0</div>
+            <ion-icon name="cart" id="cart-icon"></ion-icon>
+            <div class="tel-icon">
+                <i class="fa-solid fa-bars menu-icon"></i>
+            </div>
+        </div>
+        <div class="dark-light-button">
+            <div class="sun">
+                <i class="fa-solid fa-sun "></i>
+            </div>
+            <div class="moon">
+                <i class="fa-solid fa-moon"></i>
+            </div>
+        </div>
+
+    </header>
+    <div class="menu-left">
+        <div class="menu-left-nov">
+            <div class="dark-light-button2">
+                <div class="sun2">
+                    <i class="fa-solid fa-sun"></i>
+                </div>
+                <div class="moon2">
+                    <i class="fa-solid fa-moon"></i>
+                </div>
+            </div>
+            <ul>
+                <li><a href="/secandPage/secondPage.html">Home</a></li>
+                <li><a href="/forMen/forMenPage.html">For Men</a></li>
+                <li><a href="/forWomen/forWomen.html">For Women</a></li>
+                <li><a href="/worth/worth.html">Sell & Trade</a></li>
+                <li><a href="/newest/newested.html">Coming Soon</a></li>
+                <li><a href="/myWatch/myWatch.html">Profile</a></li>
+            </ul>
+        </div>
+    </div>
+
+
+    <div class="nav">
+        <div class="cart">
+            <div class="cart-title">Cart Items</div>
+            <div class="cart-content">
+            </div>
+            <div class="total">
+                <div class="total-title">Total</div>
+                <div class="total-price">Rs.0</div>
+            </div>
+
+            <button class="btn-buy">Place Order</button>
+
+            <ion-icon name="close" id="cart-close"></ion-icon>
+
+        </div>
+    </div>
+    <div class="profil">
+        <h4>Profil</h4>
+    </div>
+    <div class="my-watch">
+        <div class="my-watch-left">
+            <div class="messag">
+                <img src="/img/myWatch/ep_message.svg" alt="icon">
+                <p>Message</p>
+            </div>
+            <div class="sell">
+                <img src="/img/myWatch/material-symbols_sell-outline.svg" alt="icon">
+                <p>Sell</p>
+            </div>
+            <div class="collec">
+                <img src="/img/myWatch/Vector (1).svg" alt="icon">
+                <p>Watch Collection</p>
+            </div>
+            <div class="saved">
+                <img src="/img/myWatch/circum_save-down-1.svg" alt="icon">
+                <p>Saved Search</p>
+            </div>
+            <div class="notifi">
+                <img src="/img/myWatch/iconoir_bell-notification.svg" alt="icon">
+                <p>Notification</p>
+            </div>
+            <div class="dasboard">
+                <img src="/img/myWatch/carbon_dashboard.svg" alt="icon">
+                <p>Dasboard</p>
+            </div>
+            <div class="log">
+                <img src="/img/myWatch/iconoir_log-out.svg" alt="icon">
+                <a href="/firstPage.html"><p>Log Out</p></a>
+            </div>
+        </div>
+        <div class="my-watch-right">
+            <div class="profil-img">
+                <div class="img">
+                    <input type="file" id="img-upload-1" class="img-upload" accept="image/*">
+                    <img id="uploaded-img-1" class="uploaded-img" alt="Add photo">
+                </div>
+                <div class="name">
+                    <h1>Aytac Aliyeva</h1>
+                    <p>Customer ID: 123 456 789</p>
+                </div>
+            </div>
+            <div class="lines"></div>
+            <div class="billing">
+                <h2>Billing Address</h2>
+            </div>
+            <div class="first-name">
+                <p>First name</p>
+                <input type="text" placeholder="Billing Adress" onfocus="this.placeholder=''" onblur="this.placeholder='Billing Adress'">
+            </div>
+            <div class="last-name">
+                <p>Last name</p>
+                <input type="text" placeholder="Billing Adress" onfocus="this.placeholder=''" onblur="this.placeholder='Billing Adress'">
+            </div>
+            <div class="street">
+                <p>Street</p>
+                <input type="text" placeholder="Billing Adress" onfocus="this.placeholder=''" onblur="this.placeholder='Billing Adress'">
+            </div>
+            <div class="zip">
+                <p>ZIP code, City</p>
+                <input type="text" placeholder="Billing Adress" onfocus="this.placeholder=''" onblur="this.placeholder='Billing Adress'" class="inp">
+                <input type="text" placeholder="Billing Adress" onfocus="this.placeholder=''" onblur="this.placeholder='Billing Adress'" class="inp2">
+            </div>
+            <div class="country">
+                <p>Country</p>
+                <input type="text" placeholder="Billing Adress" onfocus="this.placeholder=''" onblur="this.placeholder='Billing Adress'">
+            </div>
+            <div class="lines"></div>
+            <div class="billing">
+                <h2>Billing Address</h2>
+            </div>
+            <div class="email">
+                <p>Email Address</p>
+                <input type="Email" placeholder="Billing Adress" onfocus="this.placeholder=''" onblur="this.placeholder='Billing Adress'">
+            </div>
+            <div class="password">
+                <p>Password</p>
+                <input type="password" placeholder="Billing Adress" onfocus="this.placeholder=''" onblur="this.placeholder='Billing Adress'">
+            </div>
+            <div class="lines"></div>
+            <div class="billing">
+                <h2>Personal information</h2>
+            </div>
+            <div class="gender">
+                <p>Gender</p>
+                <input type="text" placeholder="Billing Adress" onfocus="this.placeholder=''" onblur="this.placeholder='Billing Adress'">
+            </div>
+            <div class="birth">
+                <p>Date of birth</p>
+                <input type="text" placeholder="Billing Adress" onfocus="this.placeholder=''" onblur="this.placeholder='Billing Adress'">
+            </div>
+            <div class="input3">
+                <p>Phone number <img src="/img/shoppingPage/tabler_circle-letter-i.svg" alt="icon">*</p>
+                <div class="option">
+                    <div class="select">
+                        <img src="/img/shoppingPage/image 7.svg" alt="flag" class="flag">
+                    <select name="select" id="">
+                        <option value="op"></option>
+                        <option value="op">994</option>
+                    </select>
+                    </div>
+                    <input type="text">
+                </div>
+            </div>
+                <div class="languages">
+                    <p>Languages</p>
+                    <input type="text" placeholder="Add a language" onfocus="this.placeholder=''" onblur="this.placeholder='Add a language'">
+                </div>
+                <div class="about-me">
+                    <p>About me</p>
+                    <input type="text" placeholder="Add a language" onfocus="this.placeholder=''" onblur="this.placeholder='Add a language'">
+                </div>
+                <div class="delete-save">
+                    <div class="delete">
+                        <img src="/img/profilEdit/ph_trash-simple.svg" alt="icon">
+                        <h2>Delete account</h2>
+                    </div>
+                    <div class="save">
+                        <a href="/sellPage/sellWatch.html"><p>Save</p></a>
+                    </div>
+                </div>
+        </div> 
+    </div>
+    <div class="footer">
+        <div class="foot">
+            <div class="home">
+               <a href="/secandPage/secondPage.html"> <h4>Home</h4></a>
+               <a href="/forMen/forMenPage.html"><h5>For men</h5></a>
+               <a href="/forWomen/forWomen.html"><h5>For women</h5></a>
+               <a href="/allBrands/allBrandsPage.html"> <h5>All brands</h5></a>
+                <a href="/newest/newested.html"><h5>Newests</h5></a>
+            </div>
+            <div class="home">
+                <h4>Company</h4>
+                <h5>Corporation</h5>
+                <h5>Fashions</h5>
+                <h5>About Us</h5>
+            </div>
+            <div class="home">
+                <h4>Contact Us</h4>
+                <h5>Privacy & Policy</h5>
+                <h5>Terms of Services</h5>
+                <h5>+994 123 456 78 91</h5>
+            </div>
+        </div>
+        <p class="line"></p>
+        <div class="social-media">
+            <div class="date">
+                <img src="/img/icons/Vector (3).png" alt="icon"> <span>2023</span>
+            </div>
+            <div class="media">
+                <a href="https://www.instagram.com/casio_us/"><img src="/img/icons/Vectors.png" alt="icon"></a>
+                <a href="https://www.facebook.com/groups/250363055662102/"><img src="/img/icons/Vector (1).png" alt="icon"></a>
+                <a href="https://twitter.com/i/flow/login?redirect_after_login=%2Fcasioofficial"><img src="/img/icons/Vector (2).png" alt="icon"></a>
+                <img src="/img/icons/Group.png" alt="icon">
+            </div>
+        </div>
+    </div>
+
+   <script src="/app.js"></script>
+   <script src="/phone.js"></script>
+   <script src="./profilEdit.js"></script>
+</body>
+</html>
